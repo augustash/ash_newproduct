@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Simple extension that creates easy method for checking if a product is new
+ *
+ * @category    Ash
+ * @package     Ash_NewProduct
+ * @copyright   Copyright (c) 2010 August Ash, Inc. (http://www.augustash.com)
+ * @author      Pete McWilliams (August Ash)
+ */
+-->
+<config>
+    <modules>
+        <Ash_NewProduct>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Ash_NewProduct>
+    </modules>
+</config>

@@ -1,0 +1,4 @@
+# Ash_NewProduct Mappings
+
+Ash_NewProduct.xml    app/etc/modules/Ash_NewProduct.xml
+code                  app/code/local/Ash/NewProduct/

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Simple extension that creates easy method for checking if a product is new
+ *
+ * @category    Ash
+ * @package     Ash_NewProduct
+ * @copyright   Copyright (c) 2010 August Ash, Inc. (http://www.augustash.com)
+ * @author      August Ash Team <core@augustash.com>
+ */
+-->
+<config>
+    <modules>
+        <Ash_NewProduct>
+             <version>1.0.2</version>
+        </Ash_NewProduct>
+    </modules>
+
+    <global>
+        <blocks>
+            <ash_newproduct>
+                Ash_NewProduct_Block
+            </ash_newproduct>
+            <catalog>
+                <rewrite>
+                    <!-- Override Mage_Catalog_Block_Product_List -->
+                    <product_list>Ash_NewProduct_Block_Product_List</product_list>
+                </rewrite>
+            </catalog>
+        </blocks>
+        <helpers>
+            <ash_newproduct>
+                <class>Ash_NewProduct_Helper</class>
+            </ash_newproduct>
+        </helpers>
+    </global>
+</config>
