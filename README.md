@@ -19,7 +19,9 @@ Usage
 In your `list.phtml` or `view.phtml` template files, you can use the included 
 helper to check whether the product is new:
 
-    if (Mage::helper('ash_newproduct')->isNew($_product)):
+    <?php if (Mage::helper('ash_newproduct')->isNew($_product)): ?>
+    <h3>New!</h3>
+    <?php endif; ?>
 
 ```
 @copyright  Copyright (c) 2010 August Ash, Inc. (http://www.augustash.com)
