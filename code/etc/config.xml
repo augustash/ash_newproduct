@@ -12,7 +12,9 @@
 <config>
     <modules>
         <Ash_NewProduct>
-             <version>1.0.2</version>
+             <version>1.0.3</version>
+             <ashup
+                remote="https://s3.amazonaws.com/augustash/mage/ash_newproduct-latest.zip" />
         </Ash_NewProduct>
     </modules>
 
